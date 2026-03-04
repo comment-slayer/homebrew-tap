@@ -3,7 +3,7 @@ cask "dnsvard" do
   name "dnsvard"
   desc "Local development networking daemon for stable hostnames across worktrees"
   homepage "https://github.com/comment-slayer/dnsvard"
-  version "0.1.3"
+  version "0.1.4"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "dnsvard" do
   on_macos do
     on_intel do
       url "https://github.com/comment-slayer/dnsvard/releases/download/v#{version}/dnsvard_v#{version}_darwin_amd64.tar.gz"
-      sha256 "b7262f43d184409a6505d301ea55cb39c0c157569fa70b0e87f41d000f9d5157"
+      sha256 "20e532f7afddad487a2d9ea5c771f804c20b264a6f4f153d68696746943bbe5d"
     end
     on_arm do
       url "https://github.com/comment-slayer/dnsvard/releases/download/v#{version}/dnsvard_v#{version}_darwin_arm64.tar.gz"
-      sha256 "0738bca29ae9d55acb14db508378156b29ff0aad9e867d641ff8773a3926ee78"
+      sha256 "3161d62d5304c1295c0dbf2cc0981bc665ef7732ab51f3459416a54d5f6c2a1a"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/comment-slayer/dnsvard/releases/download/v#{version}/dnsvard_v#{version}_linux_amd64.tar.gz"
-      sha256 "769180fac746537c5cca840890149692ef18ed7ec21e58c0d83cd506f74db1df"
+      sha256 "1f0817775ff1e2bb9c4a8dc7ffa1ee5d049c895c12c111d960063753cdb16e97"
     end
     on_arm do
       url "https://github.com/comment-slayer/dnsvard/releases/download/v#{version}/dnsvard_v#{version}_linux_arm64.tar.gz"
-      sha256 "e9aa653c1bb1620bc3346a5a7695fd90608eed499b672f518bf1684eabe0bfa5"
+      sha256 "b3b72a1e60bca07563e7e6fbfa4f885fb41d0b4d885ab6484f39115bf7a128bb"
     end
   end
 
